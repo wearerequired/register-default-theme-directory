@@ -1,5 +1,5 @@
 {
-  "name":        "wearerequired/register-theme-directory",
+  "name":        "wearerequired/register-default-theme-directory",
   "description": "Registers the theme directory for default WordPress themes.",
   "version":     "1.0.0",
   "type":        "wordpress-muplugin",
