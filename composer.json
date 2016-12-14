@@ -1,0 +1,13 @@
+{
+  "name":        "wearerequired/register-theme-directory",
+  "description": "Registers the theme directory for default WordPress themes.",
+  "version":     "1.0.0",
+  "type":        "wordpress-muplugin",
+  "license":     "GPL-2.0+",
+  "authors":     [
+    {
+      "name":  "required",
+      "email": "info@required.ch"
+    }
+  ]
+}
