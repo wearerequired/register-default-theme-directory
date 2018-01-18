@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Register Default Theme Directory
- * Description: Registers the theme directory for default WordPress themes.
+ * Description: Registers the theme directory for the default WordPress themes.
  * Version:     1.0.0
  * Author:      required
  * Author URI:  https://required.com/
