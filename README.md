@@ -1,15 +1,20 @@
 # Register WordPress' Default Theme Directory
 
-Registers the theme directory for default WordPress themes.
+When installing WordPress using Composer with a separated `wp-content` directory, WordPress isn't automatically aware of the default themes inside the WordPress folder.
+
+This package simply registers the theme directory with WordPress so you can use the default WordPress themes without hassle.
 
 ## Installation
+
+The package type is `wordpress-muplugin`. Example of a `composer.json`:
 
 Example of a `composer.json` for a site:
 
 ```json
 {
   "name": "wearerequired/something",
-  "license": "GPL-2.0+",
+  "description": "required.com",
+  "license": "GPL-2.0-or-later",
   "authors": [
     {
       "name": "required gmbh",
@@ -19,15 +24,9 @@ Example of a `composer.json` for a site:
   "require": {
     "php": ">=5.6",
     "koodimonni/composer-dropin-installer": "dev-master",
-    "johnpbloch/wordpress": "~4.7",
-    "wearerequired/register-default-theme-directory": "dev-master"
+    "johnpbloch/wordpress": "~4.9",
+    "wearerequired/register-default-theme-directory": "^1.0"
   },
-  "repositories": [
-    {
-      "type": "git",
-      "url": "git@github.com:wearerequired/register-default-theme-directory.git"
-    }
-  ],
   "extra": {
     "wordpress-install-dir": "wordpress/wp",
     "installer-paths": {
