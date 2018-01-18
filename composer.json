@@ -1,6 +1,6 @@
 {
   "name": "wearerequired/register-default-theme-directory",
-  "description": "Registers the theme directory for the default WordPress themes.",
+  "description": "WordPress mu-plugin to register the theme directory for the default WordPress themes.",
   "type": "wordpress-muplugin",
   "homepage": "https://github.com/wearerequired/register-default-theme-directory",
   "license": "GPL-2.0-or-later",
